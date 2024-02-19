@@ -1,0 +1,61 @@
+.quote {
+  background: var(--bg-color);
+  color: var(--main-text);
+  padding: 32rem 4rem;
+  ::selection {
+    background: var(--secondary);
+  }
+}
+
+.quote__paragraph {
+  position: relative;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.quote__span {
+  position: absolute;
+  bottom: -2rem;
+  right: 0rem;
+  font-size: 1.4rem;
+  font-style: normal;
+}
+
+@media (min-width: 728px) {
+  .quote {
+    padding: 35rem 10rem;
+  }
+
+  .quote__paragraph {
+    font-size: 2rem;
+  }
+
+  .quote__span {
+    font-size: 1.6rem;
+    bottom: -5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quote {
+    padding: 38rem 15rem;
+  }
+
+  .quote__paragraph {
+    font-size: 2.1rem;
+  }
+
+  .quote__span {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .quote {
+    padding: 42.5rem 30rem;
+  }
+
+  .quote__paragraph {
+    font-size: 2.25rem;
+  }
+}

@@ -1,0 +1,111 @@
+.sign-up {
+  background: var(--bg-light);
+  color: #fff;
+  padding: 10rem 1rem;
+  font-size: 1.4rem;
+}
+
+.sign-up__container {
+  padding: 1.6rem;
+  background: #3b82f6;
+  border-radius: 0.6rem;
+  ::selection {
+    background: var(--primary);
+  }
+}
+
+.sign-up__title {
+  font-size: 1.6rem;
+}
+
+.sign-up__paragraph {
+  font-size: 1.4rem;
+  color: #e6e6e6;
+  padding-top: 0.5rem;
+}
+
+.sign-up__btn {
+  margin-top: 1rem;
+  background: #3b82f6;
+  border: solid 1.25px var(--main-text);
+  padding: 0.5rem 1.2rem;
+  color: var(--main-text);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.sign-up__btn:hover {
+  background: var(--main-text);
+  color: #3b82f6;
+}
+
+footer {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-text);
+}
+
+.footer__paragraph {
+  padding: 1.6rem;
+}
+
+@media (min-width: 728px) {
+  .sign-up {
+    padding: 10rem 4.5rem;
+  }
+
+  .sign-up__title {
+    font-size: 1.8rem;
+  }
+
+  .sign-up__paragraph {
+    font-size: 1.6rem;
+  }
+
+  .sign-up__btn {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sign-up {
+    padding: 12.5rem 15rem;
+  }
+
+  .sign-up__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4.5rem;
+  }
+}
+
+@media (min-width: 1240px) {
+  .sign-up {
+    padding: 15rem 20rem;
+  }
+
+  .sign-up__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+  }
+
+  .sign-up__btn {
+    padding: 1rem 3.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sign-up {
+    padding: 18rem 30rem;
+  }
+
+  .sign-up__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+  }
+}
