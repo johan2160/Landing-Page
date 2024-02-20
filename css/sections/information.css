@@ -31,13 +31,14 @@
 .information__paragraph {
   padding-top: 2rem;
   font-size: 1.45rem;
-  font-family: cursive;
+  font-style: italic;
   color: rgb(64, 64, 64);
 }
 
 .information__paragraph > i {
   font-size: inherit;
   font-family: inherti;
+  font-style: normal;
   color: inherit;
 }
 
