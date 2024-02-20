@@ -2,9 +2,6 @@
   background: var(--bg-color);
   color: var(--main-text);
   padding: 32rem 4rem;
-  ::selection {
-    background: var(--secondary);
-  }
 }
 
 .quote__paragraph {

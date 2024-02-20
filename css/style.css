@@ -31,10 +31,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-::selection {
-  background: var(--accent);
-}
-
 header,
 .hero {
   padding: 1.6rem;

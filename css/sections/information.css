@@ -3,10 +3,6 @@
   background-color: var(--bg-light);
   padding: 1.6rem;
   padding-bottom: 23.9rem;
-
-  ::selection {
-    background: var(--main-text);
-  }
 }
 
 .information__title {
@@ -22,7 +18,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* max-width: 45rem; */
 }
 
 .information__container {

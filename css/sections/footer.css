@@ -9,9 +9,6 @@
   padding: 1.6rem;
   background: #3b82f6;
   border-radius: 0.6rem;
-  ::selection {
-    background: var(--primary);
-  }
 }
 
 .sign-up__title {
