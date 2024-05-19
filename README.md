@@ -1,9 +1,4 @@
-# Assignment
-
-## Introduction
-Welcome to our project repository! In this project, you'll be creating a website based on the provided design images. Before you start, make sure to read through this README for some important guidelines and tips.
-
-## Guidelines
+## Assignment
 1. **Commit Early & Often**: Remember to commit your changes frequently. This helps in tracking progress and managing versions effectively. If you need guidance on writing commit messages, refer to the Commit Message lesson.
 
 2. **Download Design Images**: Take a look at the design images provided in the repository. Image One showcases the full design, while Image Two highlights color schemes and fonts used.
